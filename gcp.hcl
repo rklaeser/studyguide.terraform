@@ -23,7 +23,7 @@ provider "google" {
 variable "project_id" {
   description = "GCP Project ID"
   type        = string
-  # Set via environment variable: export TF_VAR_project_id="your-project-id"
+  default     = "innate-shell-469805-n2"  # Your actual project ID
 }
 
 ##########
