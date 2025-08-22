@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "YOUR-ORG-NAME"  # Replace with your Terraform Cloud org
+    organization = "Reed_Learning"
     workspaces {
       name = "terraform-learning"
     }
